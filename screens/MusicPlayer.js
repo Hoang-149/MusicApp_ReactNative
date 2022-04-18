@@ -238,7 +238,7 @@ const MusicPlayer = () => {
                     </TouchableOpacity>
                     <TouchableOpacity onPress={changeRepeatMode}>
                         <MaterialCommunityIcons
-                            name={`${repeatIcon}`}
+                            name={`${repeatIcon()}`}
                             size={30}
                             color={repeatMode !== 'off' ? '#ffd369' : '#888888'} />
                     </TouchableOpacity>
